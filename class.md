@@ -1,5 +1,4 @@
 #为什么会有self
----------
 ###no.1
     class person:
         def info(self,name,age): 
