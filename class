@@ -1,3 +1,4 @@
+为什么会有self
 #no.1
 class person:
     def info(self,name,age):  #有self，因为当实例调用时，如：person1.info('wangzixuan',26)，相当于在类里面执行一次info（person1，name，age）
