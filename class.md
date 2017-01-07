@@ -1,5 +1,5 @@
 ###no.1 为什么会有self
-'''
+```
 class person:
 def info(self,name,age): 
     print('your name is '+name+'your age is %d ' % age) #有self，因为当实例调用时，如：person1.info('wangzixuan',26)，相当于在类里面执行一次
@@ -8,7 +8,7 @@ def info(self,name,age):
 print(person().info('wangzixuan',26))
 person1 = person()
 print(person1.info('wangzixuan',23)) 
-'''
+```
 
 ###no.2 int 用法
     class person:
