@@ -1,3 +1,5 @@
+>如果你想要学什么，那么就直接去做------王子炫
+
 ###no.1 为什么会有self
 ```
 class person:
@@ -21,3 +23,4 @@ print(person1.info('wangzixuan',23))
 
     person2=person('CN')    #这一步必须附值，因为init中有nationality。执行这一步init初始函数被调用。而且类被调用，init会执行，这段中会执行print
     person2.info('wangzixuan',25)
+
