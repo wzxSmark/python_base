@@ -2,7 +2,8 @@
 #no.1
     class person:
         def info(self,name,age): 
-            print('your name is '+name+'your age is %d ' % age)
+            print('your name is '+name+'your age is %d ' % age) #有self，因为当实例调用时，如：person1.info('wangzixuan',26)，相当于在类里面执行一次
+            info（person1，name，age）
 
     print(person().info('wangzixuan',26))
     person1 = person()
@@ -12,7 +13,7 @@
 #no.2
     class person:
         def __init__(self,nationality):
-            self.country = nationality #必须绑定self 否者其他函数无法调用
+            self.country = nationality #必须绑定self 否者其他函数无法调用,
             print('yeah, the init def has been used!')
         def info(self,name,age):
             print('your name is '+name+'your age is %d ' % age+'you are from '+self.country)
