@@ -1,5 +1,4 @@
-#为什么会有self
-###no.1
+###no.1 为什么会有self
     class person:
         def info(self,name,age): 
             print('your name is '+name+'your age is %d ' % age) #有self，因为当实例调用时，如：person1.info('wangzixuan',26)，相当于在类里面执行一次
@@ -10,8 +9,7 @@
     print(person1.info('wangzixuan',23))  
 
 
-###no.2
-
+###no.2 int 用法
     class person:
         def __init__(self,nationality):
             self.country = nationality #必须绑定self 否者其他函数无法调用,
