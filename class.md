@@ -4,8 +4,9 @@
 ```
 class person:
 def info(self,name,age): 
-    print('your name is '+name+'your age is %d ' % age) #有self，因为当实例调用时，如：person1.info('wangzixuan',26)，相当于在类里面执行一次
-    info（person1，name，age）
+    print('your name is '+name+'your age is %d ' % age)
+    #有self，因为当实例调用时，如：person1.info('wangzixuan',26)，相当于在类里面执行一次info（person1,'wangzixuan',26）.默认用self表示第一个变量
+    info（person1，name，age）
     
 print(person().info('wangzixuan',26))
 person1 = person()
